@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{44034F99-A955-412B-8EE6-AFB9DF488675}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="App\iLearnTsakonika_App.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="iLearnTsakonika_App">
+        <MSBuild Projects="App\iLearnTsakonika_App.dproj"/>
+    </Target>
+    <Target Name="iLearnTsakonika_App:Clean">
+        <MSBuild Projects="App\iLearnTsakonika_App.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="iLearnTsakonika_App:Make">
+        <MSBuild Projects="App\iLearnTsakonika_App.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="iLearnTsakonika_App"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="iLearnTsakonika_App:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="iLearnTsakonika_App:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

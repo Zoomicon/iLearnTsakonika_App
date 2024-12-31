@@ -26,17 +26,8 @@
 #*.obj
 #
 
-# Default Delphi compiler directories
-# Content of this directories are generated with each Compile/Construct of a project.
-# Most of the time, files here have not there place in a code repository.
-#Win32/
-#Win64/
-#OSX64/
-#OSXARM64/
-#Android/
-#Android64/
-#iOSDevice64/
-#Linux64/
+# Windows Store deployment package
+*.msix
 
 # Delphi compiler-generated binaries (safe to delete)
 *.exe
@@ -46,6 +37,8 @@
 *.dcp
 *.so
 *.apk
+*.apks
+*.aab
 *.drc
 *.map
 *.dres
@@ -79,3 +72,13 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+**Debug/
+**Release/
+
+*.app.zip
+*.pkg
+*.ipa
+/App/*.old
+/App/Win32/READCOM_App_Windows.zip
+/App/Win64/READCOM_App_Windows.x64.zip
