@@ -82,3 +82,6 @@ modules/
 /App/*.old
 /App/Win32/READCOM_App_Windows.zip
 /App/Win64/READCOM_App_Windows.x64.zip
+/App/Win32/iLearnTsakonika_App_Windows.zip
+/App/Win64/iLearnTsakonika_App_Windows.x64.zip
+/App/dbgout.log
