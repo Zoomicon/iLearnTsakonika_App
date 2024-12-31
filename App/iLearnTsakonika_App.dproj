@@ -417,7 +417,7 @@
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
         <PF_AliasKey>readcom</PF_AliasKey>
         <PF_AliasKeyPass>851D47CC5F96078ECF72E53AA45C7B88E44308587EF6ECF897E40FA78E273CF6DB5EA3DEE3551C63C1A4572EFACFC36ABAB3361C046522D316204584E58822A2C958F35CD507FA8FBFBAAF0007301D44921D3E131DF90939</PF_AliasKeyPass>
-        <BT_BuildType>AppStore</BT_BuildType>
+        <BT_BuildType>Debug</BT_BuildType>
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
         <Debugger_RunParams>-cleaninstall</Debugger_RunParams>
@@ -438,7 +438,7 @@
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
         <Debugger_RunParams>-cleaninstall</Debugger_RunParams>
-        <BT_BuildType>AppStore</BT_BuildType>
+        <BT_BuildType>Debug</BT_BuildType>
         <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_iOSDevice64)'!=''">
@@ -514,7 +514,6 @@
         <PF_UWPPublisherDisplayName>Zoomicon</PF_UWPPublisherDisplayName>
         <VerInfo_Release>6</VerInfo_Release>
         <PF_UWPDistributionType>Store</PF_UWPDistributionType>
-        <BT_BuildType>AppStore</BT_BuildType>
         <Icon_MainIcon>iLearnTsakonika_App.Artwork\Windows\AppIcon.ico</Icon_MainIcon>
         <Icns_MainIcns>iLearnTsakonika_App.Artwork\Windows\AppIcon.icns</Icns_MainIcns>
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
@@ -1318,14 +1317,14 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Android\Release\libREADCOM_App.so" Configuration="Release" Class="ProjectOutput_Android32">
-                    <Platform Name="Android64">
-                        <RemoteName>libREADCOM_App.so</RemoteName>
+                <DeployFile LocalName="Android\Release\libiLearnTsakonika_App.so" Configuration="Release" Class="ProjectOutput">
+                    <Platform Name="Android">
+                        <RemoteName>libiLearnTsakonika_App.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Android\Release\libiLearnTsakonika_App.so" Configuration="Release" Class="ProjectOutput">
-                    <Platform Name="Android">
+                <DeployFile LocalName="Android\Release\libiLearnTsakonika_App.so" Configuration="Release" Class="ProjectOutput_Android32">
+                    <Platform Name="Android64">
                         <RemoteName>libiLearnTsakonika_App.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
@@ -1964,12 +1963,6 @@
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Debug" Class="UWP_DelphiLogo150"/>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Release" Class="UWP_DelphiLogo150"/>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Release" Class="UWP_DelphiLogo150">
-                    <Platform Name="Win32">
-                        <RemoteName>Logo150x150.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Release" Class="UWP_DelphiLogo150">
                     <Platform Name="Win64">
                         <RemoteName>Logo150x150.png</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -1977,12 +1970,6 @@
                 </DeployFile>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Debug" Class="UWP_DelphiLogo44"/>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Release" Class="UWP_DelphiLogo44"/>
-                <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Release" Class="UWP_DelphiLogo44">
-                    <Platform Name="Win32">
-                        <RemoteName>Logo44x44.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Release" Class="UWP_DelphiLogo44">
                     <Platform Name="Win64">
                         <RemoteName>Logo44x44.png</RemoteName>
@@ -2631,6 +2618,12 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_150.png" Configuration="Release" Class="UWP_DelphiLogo150">
+                    <Platform Name="Win32">
+                        <RemoteName>Logo150x150.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Configuration="Debug" Class="UWP_DelphiLogo44">
                     <Platform Name="Win32">
                         <RemoteDir>Assets\</RemoteDir>
@@ -2641,6 +2634,12 @@
                 <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Configuration="Debug" Class="UWP_DelphiLogo44">
                     <Platform Name="Win64">
                         <RemoteDir>Assets\</RemoteDir>
+                        <RemoteName>Logo44x44.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Configuration="Release" Class="UWP_DelphiLogo44">
+                    <Platform Name="Win32">
                         <RemoteName>Logo44x44.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
