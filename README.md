@@ -8,4 +8,4 @@ iLearnTsakonika multi-platform app
 * MacOS-X
 
 ## Releases
-Can download from [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/Releases) page
+Can download from [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/releases) page
