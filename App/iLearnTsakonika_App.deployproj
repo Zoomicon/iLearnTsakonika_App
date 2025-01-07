@@ -7,7 +7,7 @@
         <DeviceId Condition="'$(Platform)'=='Android'"/>
         <DeviceId Condition="'$(Platform)'=='Android64'"/>
         <DeviceId Condition="'$(Platform)'=='iOSDevice64'"/>
-        <DeviceId Condition="'$(Platform)'=='iOSSimARM64'">FB56CD0D-4EE1-4C34-94F3-E2490DE5E227</DeviceId>
+        <DeviceId Condition="'$(Platform)'=='iOSSimARM64'"/>
     </PropertyGroup>
     <ItemGroup Condition="'$(Platform)'=='OSX64'">
         <DeployFile Include="Default.readcom" Condition="'$(Config)'=='Release'">
@@ -141,15 +141,6 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Condition="'$(Config)'=='Release'">
-            <RemoteDir>iLearnTsakonika_App\Assets\</RemoteDir>
-            <RemoteName>Logo44x44.png</RemoteName>
-            <DeployClass>UWP_DelphiLogo44</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
         <DeployFile Include="$(BDS)\bin\sk4d.dll" Condition="'$(Config)'=='Debug' And '$(SKIADIR)'==''">
             <RemoteDir>iLearnTsakonika_App\</RemoteDir>
             <RemoteName>sk4d.dll</RemoteName>
@@ -235,6 +226,15 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
             <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Condition="'$(Config)'=='Release'">
+            <RemoteDir>iLearnTsakonika_App\Assets\</RemoteDir>
+            <RemoteName>Logo44x44.png</RemoteName>
+            <DeployClass>UWP_DelphiLogo44</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
         </DeployFile>
     </ItemGroup>
     <ItemGroup Condition="'$(Platform)'=='Android64'">
@@ -368,15 +368,6 @@
             <RemoteDir>iLearnTsakonika_App\res\drawable-large\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage640</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="Android\Release\libiLearnTsakonika_App.so" Condition="'$(Config)'=='Release'">
-            <RemoteDir>iLearnTsakonika_App\library\lib\armeabi-v7a\</RemoteDir>
-            <RemoteName>libiLearnTsakonika_App.so</RemoteName>
-            <DeployClass>ProjectOutput_Android32</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -603,6 +594,15 @@
             <RemoteDir>iLearnTsakonika_App\res\drawable-hdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon72</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Android\Release\libiLearnTsakonika_App.so" Condition="'$(Config)'=='Release'">
+            <RemoteDir>iLearnTsakonika_App\library\lib\armeabi-v7a\</RemoteDir>
+            <RemoteName>libiLearnTsakonika_App.so</RemoteName>
+            <DeployClass>ProjectOutput_Android32</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>

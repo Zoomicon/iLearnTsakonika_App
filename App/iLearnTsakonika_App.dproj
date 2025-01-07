@@ -509,8 +509,8 @@
         <VerInfo_PreRelease>true</VerInfo_PreRelease>
         <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.6.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.6.0;Comments=</VerInfo_Keys>
         <PF_UWPPublisher>CN=E1504C07-F970-414E-A706-87A64B47C12B</PF_UWPPublisher>
-        <PF_UWPPackageName>17029Zoomicon.READ-COMReadingCommunities</PF_UWPPackageName>
-        <PF_UWPPackageDisplayName>READ-COM: Reading Communities</PF_UWPPackageDisplayName>
+        <PF_UWPPackageName>17029Zoomicon.iLearnTsakonika</PF_UWPPackageName>
+        <PF_UWPPackageDisplayName>iLearnTsakonika</PF_UWPPackageDisplayName>
         <PF_UWPPublisherDisplayName>Zoomicon</PF_UWPPublisherDisplayName>
         <VerInfo_Release>6</VerInfo_Release>
         <PF_UWPDistributionType>Store</PF_UWPDistributionType>
