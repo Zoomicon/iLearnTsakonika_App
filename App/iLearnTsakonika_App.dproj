@@ -331,12 +331,12 @@
         <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=10;versionName=0.7.6;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=34</VerInfo_Keys>
         <PF_KeyStore>..\..\..\..\Zoomicon\Android\Keystore.keystore</PF_KeyStore>
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
-        <PF_AliasKey>readcom</PF_AliasKey>
-        <PF_AliasKeyPass>851D47CC5F96078ECF72E53AA45C7B88E44308587EF6ECF897E40FA78E273CF6DB5EA3DEE3551C63C1A4572EFACFC36ABAB3361C046522D316204584E58822A2C958F35CD507FA8FBFBAAF0007301D44921D3E131DF90939</PF_AliasKeyPass>
+        <PF_AliasKey>ilearntsakonika</PF_AliasKey>
+        <PF_AliasKeyPass>852647E55F92078BCF63E53BA4657BB0E447084A7EBAECA69F0D7768D805A895A5EF5D027F38E22FC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_AliasKeyPass>
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
         <Debugger_RunParams>-cleaninstall</Debugger_RunParams>
-        <BT_BuildType>Debug</BT_BuildType>
+        <BT_BuildType>AppStore</BT_BuildType>
         <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_iOSDevice64)'!=''">
@@ -417,7 +417,7 @@
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
         <PF_AliasKey>readcom</PF_AliasKey>
         <PF_AliasKeyPass>851D47CC5F96078ECF72E53AA45C7B88E44308587EF6ECF897E40FA78E273CF6DB5EA3DEE3551C63C1A4572EFACFC36ABAB3361C046522D316204584E58822A2C958F35CD507FA8FBFBAAF0007301D44921D3E131DF90939</PF_AliasKeyPass>
-        <BT_BuildType>Debug</BT_BuildType>
+        <BT_BuildType>AppStore</BT_BuildType>
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
         <Debugger_RunParams>-cleaninstall</Debugger_RunParams>
@@ -428,8 +428,8 @@
         <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=10;versionName=0.7.6;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=34</VerInfo_Keys>
         <PF_KeyStore>..\..\..\..\Zoomicon\Android\Keystore.keystore</PF_KeyStore>
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
-        <PF_AliasKey>readcom</PF_AliasKey>
-        <PF_AliasKeyPass>851D47CC5F96078ECF72E53AA45C7B88E44308587EF6ECF897E40FA78E273CF6DB5EA3DEE3551C63C1A4572EFACFC36ABAB3361C046522D316204584E58822A2C958F35CD507FA8FBFBAAF0007301D44921D3E131DF90939</PF_AliasKeyPass>
+        <PF_AliasKey>ilearntsakonika</PF_AliasKey>
+        <PF_AliasKeyPass>852647E55F92078BCF63E53BA4657BB0E447084A7EBAECA69F0D7768D805A895A5EF5D027F38E22FC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_AliasKeyPass>
         <DCC_GenerateAndroidAppBundleFile>true</DCC_GenerateAndroidAppBundleFile>
         <AUP_ACCESS_COARSE_LOCATION>false</AUP_ACCESS_COARSE_LOCATION>
         <AUP_ACCESS_FINE_LOCATION>false</AUP_ACCESS_FINE_LOCATION>
@@ -438,7 +438,7 @@
         <Android_BackgroundColor>#FFFFFF</Android_BackgroundColor>
         <Android_DarkBackgroundColor>#000000</Android_DarkBackgroundColor>
         <Debugger_RunParams>-cleaninstall</Debugger_RunParams>
-        <BT_BuildType>Debug</BT_BuildType>
+        <BT_BuildType>AppStore</BT_BuildType>
         <Android_NotificationAccentColor>#000000</Android_NotificationAccentColor>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_iOSDevice64)'!=''">
@@ -1319,12 +1319,6 @@
                 </DeployFile>
                 <DeployFile LocalName="Android\Release\libiLearnTsakonika_App.so" Configuration="Release" Class="ProjectOutput">
                     <Platform Name="Android">
-                        <RemoteName>libiLearnTsakonika_App.so</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Android\Release\libiLearnTsakonika_App.so" Configuration="Release" Class="ProjectOutput_Android32">
-                    <Platform Name="Android64">
                         <RemoteName>libiLearnTsakonika_App.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>

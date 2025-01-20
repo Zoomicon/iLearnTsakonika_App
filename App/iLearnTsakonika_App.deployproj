@@ -599,15 +599,6 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Android\Release\libiLearnTsakonika_App.so" Condition="'$(Config)'=='Release'">
-            <RemoteDir>iLearnTsakonika_App\library\lib\armeabi-v7a\</RemoteDir>
-            <RemoteName>libiLearnTsakonika_App.so</RemoteName>
-            <DeployClass>ProjectOutput_Android32</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
         <DeployFile Include="READCOM_App\LaunchGen\Android_SplashImage470.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>iLearnTsakonika_App\res\drawable-normal\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
