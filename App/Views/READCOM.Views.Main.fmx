@@ -483,7 +483,6 @@ object MainForm: TMainForm
         ImageIndex = 15
       end
       inherited actionNew: TAction
-        ImageIndex = 9
         OnExecute = HUDactionNewExecute
         ImageIndex = 9
       end
