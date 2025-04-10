@@ -292,7 +292,7 @@
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>7</VerInfo_MinorVer>
-        <VerInfo_Release>6</VerInfo_Release>
+        <VerInfo_Release>2</VerInfo_Release>
         <VerInfo_PreRelease>true</VerInfo_PreRelease>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
@@ -322,8 +322,8 @@
         <DCC_RangeChecking>true</DCC_RangeChecking>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Android)'!=''">
-        <VerInfo_Build>10</VerInfo_Build>
-        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=10;versionName=0.7.6;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
+        <VerInfo_Build>11</VerInfo_Build>
+        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=11;versionName=0.7.7;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
         <PF_KeyStore>..\..\..\..\Zoomicon\Android\Keystore.keystore</PF_KeyStore>
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
         <BT_BuildType>Debug</BT_BuildType>
@@ -336,8 +336,8 @@
         <VerInfo_MinSdkVersion>21</VerInfo_MinSdkVersion>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Android64)'!=''">
-        <VerInfo_Build>10</VerInfo_Build>
-        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=10;versionName=0.7.6;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
+        <VerInfo_Build>11</VerInfo_Build>
+        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=11;versionName=0.7.7;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
         <PF_KeyStore>..\..\..\..\Zoomicon\Android\Keystore.keystore</PF_KeyStore>
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
         <PF_AliasKey>ilearntsakonika</PF_AliasKey>
@@ -390,10 +390,9 @@
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>7</VerInfo_MinorVer>
-        <VerInfo_PreRelease>true</VerInfo_PreRelease>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.6.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.6.0;Comments=</VerInfo_Keys>
-        <VerInfo_Release>6</VerInfo_Release>
+        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.7.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.7.0;Comments=</VerInfo_Keys>
+        <VerInfo_Release>7</VerInfo_Release>
         <DCC_MapFile>3</DCC_MapFile>
         <Icon_MainIcon>iLearnTsakonika_App.Artwork\Windows\AppIcon.ico</Icon_MainIcon>
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
@@ -406,9 +405,8 @@
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>7</VerInfo_MinorVer>
-        <VerInfo_PreRelease>true</VerInfo_PreRelease>
-        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.6.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.6.0;Comments=</VerInfo_Keys>
-        <VerInfo_Release>6</VerInfo_Release>
+        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.7.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.7.0;Comments=</VerInfo_Keys>
+        <VerInfo_Release>7</VerInfo_Release>
         <Icon_MainIcon>iLearnTsakonika_App.Artwork\Windows\AppIcon.ico</Icon_MainIcon>
         <Icns_MainIcns>iLearnTsakonika_App.Artwork\Windows\AppIcon.icns</Icns_MainIcns>
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
@@ -421,8 +419,8 @@
         <DCC_DebugInformation>0</DCC_DebugInformation>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Android)'!=''">
-        <VerInfo_Build>10</VerInfo_Build>
-        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=10;versionName=0.7.6;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
+        <VerInfo_Build>11</VerInfo_Build>
+        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=11;versionName=0.7.7;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
         <PF_KeyStore>..\..\..\..\Zoomicon\Android\Keystore.keystore</PF_KeyStore>
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
         <PF_AliasKey>readcom</PF_AliasKey>
@@ -435,8 +433,8 @@
         <VerInfo_MinSdkVersion>21</VerInfo_MinSdkVersion>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Android64)'!=''">
-        <VerInfo_Build>10</VerInfo_Build>
-        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=10;versionName=0.7.6;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
+        <VerInfo_Build>11</VerInfo_Build>
+        <VerInfo_Keys>package=com.zoomicon.ilearntsakonika.app;label=iLearnTsakonika;versionCode=11;versionName=0.7.7;persistent=False;restoreAnyVersion=False;installLocation=auto;largeHeap=False;theme=No TitleBar;hardwareAccelerated=true;apiKey=;minSdkVersion=21;targetSdkVersion=35</VerInfo_Keys>
         <PF_KeyStore>..\..\..\..\Zoomicon\Android\Keystore.keystore</PF_KeyStore>
         <PF_KeyStorePass>850E47C75F930798CF7EE53CA4557B88E44308587EA6ECBC9F0B7771D801A8FDA5B85D4B7F29E22DC1E05723FA84C317BAE13658042922D2163F458CE5F422DFC902F311D544FACDBFA1AF4B072C1D7692533E451DBA097AE3AE16F2440B789365819AD322F17D52</PF_KeyStorePass>
         <PF_AliasKey>ilearntsakonika</PF_AliasKey>
@@ -518,18 +516,19 @@
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>7</VerInfo_MinorVer>
-        <VerInfo_PreRelease>true</VerInfo_PreRelease>
-        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.6.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.6.0;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.7.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.7.0;Comments=</VerInfo_Keys>
         <PF_UWPPublisher>CN=E1504C07-F970-414E-A706-87A64B47C12B</PF_UWPPublisher>
         <PF_UWPPackageName>17029Zoomicon.iLearnTsakonika</PF_UWPPackageName>
         <PF_UWPPackageDisplayName>iLearnTsakonika</PF_UWPPackageDisplayName>
         <PF_UWPPublisherDisplayName>Zoomicon</PF_UWPPublisherDisplayName>
-        <VerInfo_Release>6</VerInfo_Release>
+        <VerInfo_Release>7</VerInfo_Release>
         <PF_UWPDistributionType>Store</PF_UWPDistributionType>
         <Icon_MainIcon>iLearnTsakonika_App.Artwork\Windows\AppIcon.ico</Icon_MainIcon>
         <Icns_MainIcns>iLearnTsakonika_App.Artwork\Windows\AppIcon.icns</Icns_MainIcns>
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>iLearnTsakonika_App.Artwork\Windows\Uwp_150.png</UWP_DelphiLogo150>
+        <BT_BuildType>AppStore</BT_BuildType>
+        <VerInfo_PreRelease>true</VerInfo_PreRelease>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
@@ -537,13 +536,19 @@
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_MinorVer>7</VerInfo_MinorVer>
-        <VerInfo_PreRelease>true</VerInfo_PreRelease>
-        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.6.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.6.0;Comments=</VerInfo_Keys>
-        <VerInfo_Release>6</VerInfo_Release>
+        <VerInfo_Keys>CompanyName=Zoomicon;FileDescription=iLearnTsakonika;FileVersion=0.7.7.0;InternalName=iLearnTsakonika_App;LegalCopyright=Zoomicon;LegalTrademarks=;OriginalFilename=;ProgramID=com.zoomicon.ilearntsakonika.app;ProductName=iLearnTsakonika;ProductVersion=0.7.7.0;Comments=</VerInfo_Keys>
+        <VerInfo_Release>7</VerInfo_Release>
         <Icon_MainIcon>iLearnTsakonika_App.Artwork\Windows\AppIcon.ico</Icon_MainIcon>
         <Icns_MainIcns>iLearnTsakonika_App.Artwork\Windows\AppIcon.icns</Icns_MainIcns>
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
+        <BT_BuildType>AppStore</BT_BuildType>
         <UWP_DelphiLogo150>iLearnTsakonika_App.Artwork\Windows\Uwp_150.png</UWP_DelphiLogo150>
+        <VerInfo_PreRelease>true</VerInfo_PreRelease>
+        <PF_UWPPublisher>CN=E1504C07-F970-414E-A706-87A64B47C12B</PF_UWPPublisher>
+        <PF_UWPPackageName>17029Zoomicon.iLearnTsakonika</PF_UWPPackageName>
+        <PF_UWPPackageDisplayName>iLearnTsakonika</PF_UWPPackageDisplayName>
+        <PF_UWPPublisherDisplayName>Zoomicon</PF_UWPPublisherDisplayName>
+        <PF_UWPDistributionType>Store</PF_UWPDistributionType>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
@@ -642,7 +647,10 @@
                 <Source>
                     <Source Name="MainSource">iLearnTsakonika_App.dpr</Source>
                 </Source>
-                <Excluded_Packages/>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k290.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp290.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="5">
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libcgunwind.1.0.dylib" Class="DependencyModule">
@@ -1367,6 +1375,20 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="DEPENDENCIES.md" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Enabled>false</Enabled>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="DEPENDENCIES.md" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win64">
+                        <RemoteDir>.\</RemoteDir>
+                        <Enabled>false</Enabled>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Default.readcom" Configuration="Debug" Class="ProjectFile"/>
                 <DeployFile LocalName="Default.readcom" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Android">
@@ -1975,20 +1997,8 @@
                 </DeployFile>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Debug" Class="UWP_DelphiLogo150"/>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Release" Class="UWP_DelphiLogo150"/>
-                <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Configuration="Release" Class="UWP_DelphiLogo150">
-                    <Platform Name="Win64">
-                        <RemoteName>Logo150x150.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Debug" Class="UWP_DelphiLogo44"/>
                 <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Release" Class="UWP_DelphiLogo44"/>
-                <DeployFile LocalName="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Configuration="Release" Class="UWP_DelphiLogo44">
-                    <Platform Name="Win64">
-                        <RemoteName>Logo44x44.png</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="READCOM_App\LaunchGen\iOS_AppStore1024.png" Configuration="Debug" Class="iOS_AppStore1024"/>
                 <DeployFile LocalName="READCOM_App\LaunchGen\iOS_AppStore1024.png" Configuration="Debug" Class="iOS_AppStore1024">
                     <Platform Name="iOSDevice64">
@@ -2637,6 +2647,12 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_150.png" Configuration="Release" Class="UWP_DelphiLogo150">
+                    <Platform Name="Win64">
+                        <RemoteName>Logo150x150.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Configuration="Debug" Class="UWP_DelphiLogo44">
                     <Platform Name="Win32">
                         <RemoteDir>Assets\</RemoteDir>
@@ -2653,6 +2669,12 @@
                 </DeployFile>
                 <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Configuration="Release" Class="UWP_DelphiLogo44">
                     <Platform Name="Win32">
+                        <RemoteName>Logo44x44.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Configuration="Release" Class="UWP_DelphiLogo44">
+                    <Platform Name="Win64">
                         <RemoteName>Logo44x44.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>

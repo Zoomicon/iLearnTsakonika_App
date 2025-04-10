@@ -123,6 +123,15 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
+        <DeployFile Include="DEPENDENCIES.md" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>iLearnTsakonika_App\</RemoteDir>
+            <RemoteName>DEPENDENCIES.md</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
         <DeployFile Include="Default.readcom" Condition="'$(Config)'=='Debug'">
             <RemoteDir>iLearnTsakonika_App\</RemoteDir>
             <RemoteName>Default.readcom</RemoteName>
@@ -1258,7 +1267,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="READCOM_App\LaunchGen\UWP_DelphiLogo44.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\Uwp_44.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>iLearnTsakonika_App\Assets\</RemoteDir>
             <RemoteName>Logo44x44.png</RemoteName>
             <DeployClass>UWP_DelphiLogo44</DeployClass>
@@ -1334,7 +1343,7 @@
             <Overwrite>True</Overwrite>
             <Required>True</Required>
         </DeployFile>
-        <DeployFile Include="READCOM_App\LaunchGen\UWP_DelphiLogo150.png" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\Uwp_150.png" Condition="'$(Config)'=='Release'">
             <RemoteDir>iLearnTsakonika_App\Assets\</RemoteDir>
             <RemoteName>Logo150x150.png</RemoteName>
             <DeployClass>UWP_DelphiLogo150</DeployClass>
