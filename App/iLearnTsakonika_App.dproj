@@ -181,7 +181,7 @@
         <Icon_MainIcon>READCOM_App\LaunchGen\Icon_MainIcon.ico</Icon_MainIcon>
         <Icns_MainIcns>$(BDS)\bin\delphi_PROJECTICNS.icns</Icns_MainIcns>
         <SanitizedProjectName>iLearnTsakonika_App</SanitizedProjectName>
-        <DCC_UnitSearchPath>modules\.dcp;..\modules\.dcp;modules\.dcu;..\modules\.dcu;modules;..\modules;modules\object-debugger-for-firemonkey\DemoDesktop;..\modules\object-debugger-for-firemonkey\DemoDesktop;modules\object-debugger-for-firemonkey\DemoMobile;..\modules\object-debugger-for-firemonkey\DemoMobile;modules\object-debugger-for-firemonkey;..\modules\object-debugger-for-firemonkey;modules\object-debugger-for-firemonkey\Test;..\modules\object-debugger-for-firemonkey\Test;modules\readcom.core.delphi\Source\Factories;..\modules\readcom.core.delphi\Source\Factories;modules\readcom.core.delphi\Source\Models;..\modules\readcom.core.delphi\Source\Models;modules\readcom.core.delphi\Source\Resources;..\modules\readcom.core.delphi\Source\Resources;modules\readcom.core.delphi\Source\Views\Dialogs;..\modules\readcom.core.delphi\Source\Views\Dialogs;modules\readcom.core.delphi\Source\Views\Prompts;..\modules\readcom.core.delphi\Source\Views\Prompts;modules\zoomicon.generics.delphi\Source\Collections;..\modules\zoomicon.generics.delphi\Source\Collections;modules\zoomicon.generics.delphi\Source\Factories;..\modules\zoomicon.generics.delphi\Source\Factories;modules\zoomicon.generics.delphi\Source\Functors;..\modules\zoomicon.generics.delphi\Source\Functors;modules\zoomicon.generics.delphi\Test;..\modules\zoomicon.generics.delphi\Test;modules\zoomicon.helpers.fmx.delphi\Source;..\modules\zoomicon.helpers.fmx.delphi\Source;modules\zoomicon.helpers.rtl.delphi\Source;..\modules\zoomicon.helpers.rtl.delphi\Source;modules\zoomicon.introspection.fmx.delphi\Demo;..\modules\zoomicon.introspection.fmx.delphi\Demo;modules\zoomicon.introspection.fmx.delphi\Source;..\modules\zoomicon.introspection.fmx.delphi\Source;modules\zoomicon.manipulation.fmx.delphi\Source;..\modules\zoomicon.manipulation.fmx.delphi\Source;modules\zoomicon.media.fmx.delphi\Demo\Views;..\modules\zoomicon.media.fmx.delphi\Demo\Views;modules\zoomicon.media.fmx.delphi\Source;..\modules\zoomicon.media.fmx.delphi\Source;modules\zoomicon.zui.fmx.delphi\Demo;..\modules\zoomicon.zui.fmx.delphi\Demo;modules\zoomicon.zui.fmx.delphi\Source;..\modules\zoomicon.zui.fmx.delphi\Source;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>..\modules\.dcp;..\modules\.dcu;..\modules;..\modules\object-debugger-for-firemonkey\DemoDesktop;..\modules\object-debugger-for-firemonkey\DemoMobile;..\modules\object-debugger-for-firemonkey;..\modules\object-debugger-for-firemonkey\Test;..\modules\readcom.core.delphi\Source\Factories;..\modules\readcom.core.delphi\Source\Models;..\modules\readcom.core.delphi\Source\Resources;..\modules\readcom.core.delphi\Source\Views\Dialogs;..\modules\readcom.core.delphi\Source\Views\Prompts;..\modules\zoomicon.generics.delphi\Source\Collections;..\modules\zoomicon.generics.delphi\Source\Factories;..\modules\zoomicon.generics.delphi\Source\Functors;..\modules\zoomicon.generics.delphi\Test;..\modules\zoomicon.helpers.fmx.delphi\Source;..\modules\zoomicon.helpers.rtl.delphi\Source;..\modules\zoomicon.introspection.fmx.delphi\Demo;..\modules\zoomicon.introspection.fmx.delphi\Source;..\modules\zoomicon.manipulation.fmx.delphi\Source;..\modules\zoomicon.media.fmx.delphi\Demo\Views;..\modules\zoomicon.media.fmx.delphi\Source;..\modules\zoomicon.zui.fmx.delphi\Demo;..\modules\zoomicon.zui.fmx.delphi\Source;..\modules\.bpl;..\modules\readcom.core.delphi\Source\Views\Options;..\modules\readcom.core.delphi\Source\Views\StoryItems;modules\.dcp;modules\.dcu;modules;modules\.bpl;modules\object-debugger-for-firemonkey\DemoDesktop;modules\object-debugger-for-firemonkey\DemoMobile;modules\object-debugger-for-firemonkey;modules\object-debugger-for-firemonkey\Test;modules\readcom.core.delphi\Source\Factories;modules\readcom.core.delphi\Source\Models;modules\readcom.core.delphi\Source\Resources;modules\readcom.core.delphi\Source\Views\Dialogs;modules\readcom.core.delphi\Source\Views\Options;modules\readcom.core.delphi\Source\Views\Prompts;modules\readcom.core.delphi\Source\Views\StoryItems;modules\zoomicon.generics.delphi\Source\Collections;modules\zoomicon.generics.delphi\Source\Factories;modules\zoomicon.generics.delphi\Source\Functors;modules\zoomicon.generics.delphi\Test;modules\zoomicon.helpers.fmx.delphi\Source;modules\zoomicon.helpers.rtl.delphi\Source;modules\zoomicon.introspection.fmx.delphi\Demo;modules\zoomicon.introspection.fmx.delphi\Source;modules\zoomicon.manipulation.fmx.delphi\Source;modules\zoomicon.media.fmx.delphi\Demo\Views;modules\zoomicon.media.fmx.delphi\Source;modules\zoomicon.zui.fmx.delphi\Demo;modules\zoomicon.zui.fmx.delphi\Source;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <DCC_Define>SKIA;$(DCC_Define)</DCC_Define>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android)'!=''">
@@ -554,10 +554,6 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="modules\zoomicon.manipulation.fmx.delphi\Source\Zoomicon.Manipulation.FMX.CustomManipulator.pas">
-            <Form>CustomManipulator</Form>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
         <DCCReference Include="modules\zoomicon.media.fmx.delphi\Source\Zoomicon.Media.FMX.ModalFrame.pas">
             <Form>ModalFrame</Form>
             <DesignClass>TFrame</DesignClass>
@@ -585,38 +581,7 @@
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="Views\StoryItems\READCOM.Views.StoryItems.StoryItem.pas">
-            <Form>StoryItem</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="Views\StoryItems\READCOM.Views.StoryItems.ImageStoryItem.pas">
-            <Form>ImageStoryItem</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="Views\StoryItems\READCOM.Views.StoryItems.TextStoryItem.pas">
-            <Form>TextStoryItem</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="Views\StoryItems\READCOM.Views.StoryItems.AudioStoryItem.pas">
-            <Form>AudioStoryItem</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="Views\Options\READCOM.Views.Options.StoryItemOptions.pas">
-            <Form>StoryItemOptions</Form>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="Views\Options\READCOM.Views.Options.TextStoryItemOptions.pas">
-            <Form>TextStoryItemOptions</Form>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="Views\Options\READCOM.Views.Options.ImageStoryItemOptions.pas">
-            <Form>ImageStoryItemOptions</Form>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
+        <DCCReference Include="modules\readcom.core.delphi\Source\Views\StoryItems\READCOM.Views.StoryItems.AudioStoryItem.pas"/>
         <RcItem Include="Default.readcom">
             <ContainerId>ResourceItem</ContainerId>
             <ResourceType>RCDATA</ResourceType>
