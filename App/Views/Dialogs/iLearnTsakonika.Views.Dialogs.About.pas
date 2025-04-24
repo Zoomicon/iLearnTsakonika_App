@@ -1,7 +1,7 @@
 //Description: READ-COM About dialog
 //Author: George Birbilis (http://zoomicon.com)
 
-unit READCOM.Views.Dialogs.About;
+unit iLearnTsakonika.Views.Dialogs.About;
 
 interface
   {$region 'Used units'}
@@ -53,7 +53,7 @@ implementation
     Zoomicon.Helpers.FMX.Forms.ApplicationHelper, //for TApplication.AppVersion, TApplication.OpenURL
     //
     READCOM.App.Main, //for ShowHelp
-    READCOM.App.Messages;
+    READCOM.App.Messages; //assuming iLearnTsakonika.App.Messages has been used by iLearnTsakonika_App.dpr (since it overrides values of strings defined in this unit)
   {$endregion}
 
 {$R *.fmx}
