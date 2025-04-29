@@ -11,7 +11,6 @@ program iLearnTsakonika_App;
   uses
   System.StartUpCopy,
   READCOM.App.Main,
-  READCOM.Views.StoryItems.AudioStoryItem,
   iLearnTsakonika.App.Messages in 'iLearnTsakonika.App.Messages.pas',
   Zoomicon.Media.FMX.ModalFrame in 'modules\zoomicon.media.fmx.delphi\Source\Zoomicon.Media.FMX.ModalFrame.pas' {ModalFrame: TFrame},
   READCOM.Resources.Icons in 'modules\readcom.core.delphi\Source\Resources\READCOM.Resources.Icons.pas' {Icons: TDataModule},
