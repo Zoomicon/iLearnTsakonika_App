@@ -86,3 +86,4 @@ modules/
 /App/Win64/iLearnTsakonika_App_Windows.x64.zip
 /App/dbgout.log
 /App/Android64/symbols_0.6.7.zip
+boss-lock.json
