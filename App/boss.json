@@ -8,6 +8,6 @@
 		"iLearnTsakonika_App.dproj"
 	],
 	"dependencies": {
-		"github.com/zoomicon/readcom.core.delphi": ">=5.8.0"
+		"github.com/zoomicon/readcom.core.delphi": ">=5.9.0"
 	}
 }
