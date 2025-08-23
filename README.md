@@ -1,5 +1,5 @@
 # iLearnTsakonika
-iLearnTsakonika multi-platform app
+iLearnTsakonika language learning app
 
 Get in touch with the Tsakonian dialect (Tsakonika) of the Greek language.
 Learn Tsakonika through interactive comics with audio dialogues and learning excercises for vocabulary and grammar.
