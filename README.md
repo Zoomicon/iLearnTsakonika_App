@@ -15,3 +15,19 @@ Learn Tsakonika through interactive comics with audio dialogues and learning exc
 
 ## Releases
 Can download from [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/releases) page
+
+## Screenshots
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Start.png" />
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/LevelSelection.el.png" />
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner.png" />
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner_Welcome.el.png" />
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Dialogue/Beginner_Welcome_Dialogue.el.png" />
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Vocabulary/Beginner_Welcome_Vocabulary.el.png" />
+
+<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Grammar/Beginner_Welcome_Grammar.el.png" />
