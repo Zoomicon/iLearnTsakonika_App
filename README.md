@@ -13,7 +13,7 @@ Learn Tsakonika through interactive comics with audio dialogues and learning exc
 * iOS 10+
 * MacOS-X
 
-Also see [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/releases) page
+see [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/releases) page
 
 ## Screenshots
 
