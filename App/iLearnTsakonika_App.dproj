@@ -398,7 +398,6 @@
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>iLearnTsakonika_App.Artwork\Windows\Uwp_150.png</UWP_DelphiLogo150>
         <Icns_MainIcns>iLearnTsakonika_App.Artwork\Windows\AppIcon.icns</Icns_MainIcns>
-        <BT_BuildType>AppStore</BT_BuildType>
         <VerInfo_PreRelease>true</VerInfo_PreRelease>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
