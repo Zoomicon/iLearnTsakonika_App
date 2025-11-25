@@ -9,7 +9,7 @@
         <TargetedPlatforms>693267</TargetedPlatforms>
         <AppType>Application</AppType>
         <MainSource>iLearnTsakonika_App.dpr</MainSource>
-        <PlatformSDK Condition="'$(PlatformSDK)'=='' And '$(Platform)'=='Android64'">AndroidSDK25.2.5_64bit.sdk</PlatformSDK>
+        <PlatformSDK Condition="'$(PlatformSDK)'=='' And '$(Platform)'=='Android64'">AndroidSDK35_64bit.sdk</PlatformSDK>
         <ProjectName Condition="'$(ProjectName)'==''">iLearnTsakonika_App</ProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
@@ -529,6 +529,7 @@
         <UWP_DelphiLogo44>iLearnTsakonika_App.Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>iLearnTsakonika_App.Artwork\Windows\Uwp_150.png</UWP_DelphiLogo150>
         <VerInfo_PreRelease>true</VerInfo_PreRelease>
+        <BT_BuildType>AppStore</BT_BuildType>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
