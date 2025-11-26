@@ -7,7 +7,7 @@
         <DeviceId Condition="'$(Platform)'=='Android'"/>
         <DeviceId Condition="'$(Platform)'=='Android64'"/>
         <DeviceId Condition="'$(Platform)'=='iOSDevice64'"/>
-        <DeviceId Condition="'$(Platform)'=='iOSSimARM64'">0A4BB3E6-162A-4992-9DCF-44F4650A7A65</DeviceId>
+        <DeviceId Condition="'$(Platform)'=='iOSSimARM64'"/>
     </PropertyGroup>
     <ItemGroup Condition="'$(Platform)'=='OSX64'">
         <DeployFile Include="Default.readcom" Condition="'$(Config)'=='Release'">
@@ -247,15 +247,6 @@
         </DeployFile>
     </ItemGroup>
     <ItemGroup Condition="'$(Platform)'=='OSXARM64'">
-        <DeployFile Include="OSXARM64\Debug\iLearnTsakonika_App.entitlements" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>iLearnTsakonika_App.app\..\</RemoteDir>
-            <RemoteName>iLearnTsakonika_App.entitlements</RemoteName>
-            <DeployClass>ProjectOSXEntitlements</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
         <DeployFile Include="OSXARM64\Release\READCOM_App.info.plist" Condition="'$(Config)'=='Release'">
             <RemoteDir>iLearnTsakonika_App.app\Contents\</RemoteDir>
             <RemoteName>Info.plist</RemoteName>
@@ -293,6 +284,15 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
+        <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\AppIcon.icns" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>iLearnTsakonika_App.app\Contents\Resources\</RemoteDir>
+            <RemoteName>iLearnTsakonika_App.icns</RemoteName>
+            <DeployClass>ProjectOSXResource</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
         <DeployFile Include="READCOM_App\LaunchGen\Icon_MainIcon.icns" Condition="'$(Config)'=='Release'">
             <RemoteDir>iLearnTsakonika_App.app\Contents\Resources\</RemoteDir>
             <RemoteName>READCOM_App.icns</RemoteName>
@@ -312,24 +312,6 @@
             <Overwrite>True</Overwrite>
             <Required>True</Required>
         </DeployFile>
-        <DeployFile Include="OSXARM64\Release\READCOM_App.entitlements" Condition="'$(Config)'=='Release'">
-            <RemoteDir>iLearnTsakonika_App.app\..\</RemoteDir>
-            <RemoteName>READCOM_App.entitlements</RemoteName>
-            <DeployClass>ProjectOSXEntitlements</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="Default.readcom" Condition="'$(Config)'=='Release'">
-            <RemoteDir>iLearnTsakonika_App.app\Contents\Resources\StartUp\</RemoteDir>
-            <RemoteName>Default.readcom</RemoteName>
-            <DeployClass>ProjectFile</DeployClass>
-            <Operation>0</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
         <DeployFile Include="OSXARM64\Debug\iLearnTsakonika_App.dSYM" Condition="'$(Config)'=='Debug'">
             <RemoteDir>iLearnTsakonika_App.app\..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF\</RemoteDir>
             <RemoteName>iLearnTsakonika_App</RemoteName>
@@ -348,10 +330,28 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\AppIcon.icns" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>iLearnTsakonika_App.app\Contents\Resources\</RemoteDir>
-            <RemoteName>iLearnTsakonika_App.icns</RemoteName>
-            <DeployClass>ProjectOSXResource</DeployClass>
+        <DeployFile Include="OSXARM64\Release\READCOM_App.entitlements" Condition="'$(Config)'=='Release'">
+            <RemoteDir>iLearnTsakonika_App.app\..\</RemoteDir>
+            <RemoteName>READCOM_App.entitlements</RemoteName>
+            <DeployClass>ProjectOSXEntitlements</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="Default.readcom" Condition="'$(Config)'=='Release'">
+            <RemoteDir>iLearnTsakonika_App.app\Contents\Resources\StartUp\</RemoteDir>
+            <RemoteName>Default.readcom</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="OSXARM64\Debug\iLearnTsakonika_App.entitlements" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>iLearnTsakonika_App.app\..\</RemoteDir>
+            <RemoteName>iLearnTsakonika_App.entitlements</RemoteName>
+            <DeployClass>ProjectOSXEntitlements</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
