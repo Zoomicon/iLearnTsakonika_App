@@ -17,16 +17,17 @@ see available [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/release
 
 ## Screenshots
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Start.png" />
+![Start screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Start.png "Start screen")
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/LevelSelection.el.png" />
+![Level selection screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/LevelSelection.el.png "Level selection screen")
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner.png" />
+![Beginner screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner.png "Beginner screen")
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner_Welcome.el.png" />
+![Beginner welcome screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner_Welcome.el.png "Beginner welcome screen")
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Dialogue/Beginner_Welcome_Dialogue.el.png" />
+![Beginner welcome dialogue](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Dialogue/Beginner_Welcome_Dialogue.el.png "Beginner welcome dialogue")
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Vocabulary/Beginner_Welcome_Vocabulary.el.png" />
+![Beginner welcome vocabulary](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Vocabulary/Beginner_Welcome_Vocabulary.el.png "Beginner welcome vocabulary")
 
-<img alt="Start" src="https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Grammar/Beginner_Welcome_Grammar.el.png" />
+![Beginner welcome grammar](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Grammar/Beginner_Welcome_Grammar.el.png "Beginner welcome grammar")
+
