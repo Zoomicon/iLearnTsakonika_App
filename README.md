@@ -23,7 +23,7 @@ see available [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/release
 
 ![Beginner screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner.png "Beginner screen")
 
-![Beginner welcome screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Beginner_Welcome.el.png "Beginner welcome screen")
+![Beginner welcome screen](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Beginner_Welcome.el.png "Beginner welcome screen")
 
 ![Beginner welcome dialogue](https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/main/Gallery/Assets/Images/Screenshots/Windows/Beginner/Welcome/Dialogue/Beginner_Welcome_Dialogue.el.png "Beginner welcome dialogue")
 
