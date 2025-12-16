@@ -25,8 +25,19 @@ implementation
     StoryForm.HUD.actionMenu.Checked := false; //don't just do StoryForm.HUD.layoutButtons.Visible := false since that would make the menu toggle button unsync
     StoryForm.HUD.layoutButtons.Visible := false;
 
+    //Hiding editing-related buttons on mobile platforms
+    {$IF DEFINED(IOS) OR DEFINED(ANDROID)}
+    with StoryForm.HUD do
+    begin
+      btnNew.Visible := false;
+      btnLoad.Visible := false;
+      btnSave.Visible := false;
+      btnToggleEditMode.Visible := false;
+    end;
+    {$ENDIF}
+
     //Use fullscreen by default
-    {$IF Defined(Android)} //FullScreen still has issues on Windows (e.g. color popups don't show), only do on Android
+    {$IF DEFINED(ANDROID)} //FullScreen still has issues on Windows (e.g. color popups don't show), only do on Android
     //StoryForm.HUD.Fullscreen := true; //TODO: doing this here on Android seems to result in blank screen
     {$ENDIF}
   end;
