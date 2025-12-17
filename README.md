@@ -11,7 +11,7 @@ Learn Tsakonika through interactive comics with audio dialogues and learning exc
 * [Windows](https://apps.microsoft.com/detail/9nsj8gw0rtld) 7+
 * [Android](https://play.google.com/store/apps/details?id=com.zoomicon.ilearntsakonika.app) 5.0+
 * iOS 10+
-* MacOS-X
+* [MacOS-X](https://apps.apple.com/gr/app/ilearntsakonika/id6755818063?l=el)
 
 see available [Releases](https://github.com/Zoomicon/iLearnTsakonika_App/releases)
 
