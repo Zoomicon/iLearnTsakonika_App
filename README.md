@@ -7,7 +7,7 @@ Learn Tsakonika through interactive comics with audio dialogues and learning exc
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE.txt)
 [![Engine](https://img.shields.io/badge/Uses-READCOM.Core-blue)](https://github.com/Zoomicon/READCOM.Core.Delphi)
 
-## Supported platforms
+## Supported Platforms
 * [Windows](https://apps.microsoft.com/detail/9nsj8gw0rtld) 7+
 * [Android](https://play.google.com/store/apps/details?id=com.zoomicon.ilearntsakonika.app) 5+
 * iOS 10+
