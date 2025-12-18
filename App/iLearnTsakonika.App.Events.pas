@@ -29,7 +29,6 @@ implementation
     {$IF DEFINED(IOS) OR DEFINED(ANDROID)}
     with StoryForm.HUD do
     begin
-      btnNew.Visible := false;
       btnLoad.Visible := false;
       btnSave.Visible := false;
       btnToggleEditMode.Visible := false;

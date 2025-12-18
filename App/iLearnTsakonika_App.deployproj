@@ -6,11 +6,8 @@
     <PropertyGroup>
         <DeviceId Condition="'$(Platform)'=='Android'"/>
         <DeviceId Condition="'$(Platform)'=='Android64'"/>
-        <DeviceId Condition="'$(Platform)'=='iOSDevice64'"/>
-        <DeviceId Condition="'$(Platform)'=='iOSSimARM64'">506DAD54-DF13-4CC6-AC16-4626478468DA</DeviceId>
-    </PropertyGroup>
-    <PropertyGroup>
-        <OSX64_OutputDir Condition="'$(Platform)'=='OSXARM64'">OSX64\Release\</OSX64_OutputDir>
+        <DeviceId Condition="'$(Platform)'=='iOSDevice64'">00008101-00121D8434D2001E</DeviceId>
+        <DeviceId Condition="'$(Platform)'=='iOSSimARM64'">1A87FFF4-493C-44B8-A3D7-4954FB18BBC8</DeviceId>
     </PropertyGroup>
     <ItemGroup Condition="'$(Platform)'=='OSX64'">
         <DeployFile Include="iLearnTsakonika_App.Artwork\Windows\AppIcon.icns" Condition="'$(Config)'=='Release'">
