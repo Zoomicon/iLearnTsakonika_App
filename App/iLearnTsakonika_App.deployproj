@@ -6,7 +6,7 @@
     <PropertyGroup>
         <DeviceId Condition="'$(Platform)'=='Android'"/>
         <DeviceId Condition="'$(Platform)'=='Android64'"/>
-        <DeviceId Condition="'$(Platform)'=='iOSDevice64'">00008101-00121D8434D2001E</DeviceId>
+        <DeviceId Condition="'$(Platform)'=='iOSDevice64'">00008030-001E58CE0A52202E</DeviceId>
         <DeviceId Condition="'$(Platform)'=='iOSSimARM64'">1A87FFF4-493C-44B8-A3D7-4954FB18BBC8</DeviceId>
     </PropertyGroup>
     <ItemGroup Condition="'$(Platform)'=='OSX64'">
@@ -311,6 +311,15 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
             <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="OSXARM64\Debug\iLearnTsakonika_App.dSYM" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>iLearnTsakonika_App.app\..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF\</RemoteDir>
+            <RemoteName>iLearnTsakonika_App</RemoteName>
+            <DeployClass>ProjectOSXDebug</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
         </DeployFile>
         <DeployFile Include="OSXARM64\Debug\iLearnTsakonika_App.info.plist" Condition="'$(Config)'=='Debug'">
             <RemoteDir>iLearnTsakonika_App.app\Contents\</RemoteDir>
@@ -1829,6 +1838,15 @@
             <RemoteDir>iLearnTsakonika_App.app\..\$(PROJECTNAME).launchscreen\Assets\LaunchScreenImage.imageset\</RemoteDir>
             <RemoteName>FM_LaunchScreenImage_iPhoneDark@3x.png</RemoteName>
             <DeployClass>iPhone_LaunchDark3x</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="iOSDevice64\Debug\iLearnTsakonika_App.dSYM" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>iLearnTsakonika_App.app\..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF\</RemoteDir>
+            <RemoteName>iLearnTsakonika_App</RemoteName>
+            <DeployClass>ProjectiOSDeviceDebug</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
