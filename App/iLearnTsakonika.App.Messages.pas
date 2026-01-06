@@ -9,8 +9,11 @@ implementation
   uses READCOM.App.Messages;
 
 initialization
-  URL_HELP := 'https://github.com/Zoomicon/iLearnTsakonika_App/wiki';
-  URL_READCOM := 'https://tsakonianarchives.codable.gr';
   STR_APP_TITLE := 'iLearnTsakonika';
+
+  URL_HELP := 'https://github.com/Zoomicon/iLearnTsakonika_App/wiki';
+  URL_READCOM := 'https://TsakonianArchives.gr';
+
+  URL_GALLERY := 'https://raw.githubusercontent.com/Zoomicon/iLearnTsakonika_Gallery/master/Gallery/';
 
 end.
