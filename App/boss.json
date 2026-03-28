@@ -1,13 +1,13 @@
 {
 	"name": "iLearnTsakonika_App",
 	"description": "iLearnTsakonika app",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"homepage": "https://github.com/Zoomicon/iLearnTsakonika_App",
 	"mainsrc": ".",
 	"projects": [
 		"iLearnTsakonika_App.dproj"
 	],
 	"dependencies": {
-		"github.com/zoomicon/readcom.core.delphi": ">=20.0.0"
+		"github.com/zoomicon/readcom.core.delphi": ">=21.0.0"
 	}
 }
