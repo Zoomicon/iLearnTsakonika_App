@@ -5,7 +5,9 @@ setlocal
 set "ORIG_DIR=%CD%"
 
 call :RunBossUpdate "App"
-exit /b %ERRORLEVEL%
+
+pause
+exit /b
 
 :: === Subroutine ===
 :RunBossUpdate
@@ -19,10 +21,6 @@ cd /d "%ORIG_DIR%"
 
 echo.
 echo Creating junction: %JUNCTION% -^> %TARGET%
-if exist "%JUNCTION%" (
-    echo Removing existing junction: %JUNCTION%
-    rmdir "%JUNCTION%"
-)
 mklink /J "%JUNCTION%" "%TARGET%" > nul
 if errorlevel 1 (
     echo Failed to create junction for %TARGET%
